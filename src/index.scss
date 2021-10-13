@@ -1,0 +1,30 @@
+@import './styles/vars';
+@import './styles/_enter-form';
+@import './styles/_header';
+@import './styles/aside';
+@import './styles/message-form';
+@import './styles/message-wrapper';
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboro, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 0.3s;
+}
+
+.wrapper {
+  display: block;
+  height: 100vh;
+  min-width: 300px;
+  max-width: 750px;
+  margin: auto;
+}
+
+.chat-wrapper {
+  display: flex;
+  height: calc(100% - 60px);
+}
+

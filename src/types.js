@@ -1,0 +1,6 @@
+export const types = {
+  SET_USERNAME: 'SET_USERNAME',
+  SET_USERS: 'SET_USERS',
+  SET_DATA: 'SET_DATA',
+  ADD_MESSAGE: 'ADD_MESSAGE'
+}

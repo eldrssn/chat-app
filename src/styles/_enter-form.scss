@@ -1,0 +1,35 @@
+.enter-form {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 300px;
+  margin: auto;
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  input, button {
+    height: 50px;
+    font-size: 16px;
+  }
+  input {
+    padding: 0 10px;
+    border: none;
+  }
+  button {
+    margin-top: 10px;
+    background-color: $color-light;
+    border: none;
+    border-radius: 10px;
+
+    &:hover {
+      box-shadow: 0 3px 3px $color-dark;
+    }
+    &:active {
+      background-color: $color-dark;
+      color: white;
+    }
+  }
+}

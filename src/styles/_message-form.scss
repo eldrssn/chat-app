@@ -1,0 +1,23 @@
+.message-form {
+  display: flex;
+  
+  textarea {
+    flex-grow: 1;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 10px;
+  }
+
+  button {
+    background-color: $color-light;
+    border: none;
+    border-radius: 10px;
+
+    &:active, &:hover {
+      background-color: $color-dark;
+      color: white;
+    }
+  }
+}
